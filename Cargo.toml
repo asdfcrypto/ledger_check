@@ -1,0 +1,9 @@
+[package]
+name = "ledger_check"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.70"
+ethers = { version = "2.0.3", features = ["ledger"] }
+tokio = { version = "1.27.0", features = ["macros"] }
